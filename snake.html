@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Snake - juwends.com</title>
+    
+    <link rel="stylesheet" href="sources/snake.css" />
+    <script type="text/javascript" src="sources/snake.js" charset="UTF-8"></script>
+	<!-- 
+	<link rel="stylesheet" href="http://www.juwends.com/wp-content/uploads/bigworld/snake/snake.css" />
+	<script type="text/javascript" src="http://www.juwends.com/wp-content/uploads/bigworld/snake/snake.js" charset="UTF-8"></script> 
+	-->
+
+ </head>
+ <body>
+	
+	
+	
+	<div id="box">
+		
+	    
+	    <div id="snakebox"></div>
+	   	
+	   	<div id="infobox">
+	    	<div id="infob" class="info">
+	
+				<div class="buttonarea">
+		   			<div id="start" class="button">开 始 游 戏</div>
+		   		</div>
+		   		
+		   		<!-- <p>难度等级</p> -->
+		   		<div class="radios">
+					<span class="easy text">易</span>
+		   			<ul id="radiosul">
+		   				<li class="d1 radio select"></li>
+		   				<li class="d2 radio select"></li>
+		   				<li class="d3 radio select"></li>
+		   				<li class="d4 radio"></li>
+		   				<li class="d5 radio"></li>
+		   			</ul>
+		   			<span class="hard text">难</span>
+		   		</div>
+		   		
+		   		<div class="tips">
+			   		<p>提示: 游戏中按 [<span>空格键</span>] 暂停</p>
+			   	</div>
+			   	
+			</div>
+		   	
+		   	
+		   	<div id="infopo" class="info">
+		   	
+		   		<div class="infotext">
+		   			<p id="infotext"></p>
+			   		<!-- <p id="infotext"><span>暂停中......</span><br>
+			   						<span class="smaller">按 [<span class="bolder">空格键</span>] 继续</span></p> -->
+			   		<!-- <p id="infotext"><span>得分: </span><br><span class="smaller">挂了! 再接再厉!</span></p> -->
+			   	</div>
+			   	
+			   	<div class="buttonarea">
+			   		<div id="restart" class="button">重 新 开 始</div>
+		   			<div id="quit" class="button">结 束 游 戏</div>
+			   	</div>
+			   	
+		   	</div>
+		   	
+	   	</div> <!-- infoBox -->
+	   	
+	   	<div id="infos">
+			<p id="infotext">按方向键开始移动...</p>
+		</div>
+		
+		<div id="infocp" class="copyright">
+			<p>贪吃蛇1.0<span> &copy; Juwends.com</span></p>
+		</div>
+		
+		<div class="score">
+			<p>得分: <span id="score">0</span></p>
+		</div>
+	
+	</div>
+
+ </body>
+</html>
